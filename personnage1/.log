@@ -1,0 +1,175 @@
+C:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -v debug -r 12 -start_number 0 -start_number_range 1 -i C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image%04d.png -vf palettegen=stats_mode=full:reserve_transparent=1 -y C:/Users/bilal/jeu-unity/dossier-TM/personnage1/KritaTempPalettegen_%06d.png 
+=====================================================
+Splitting the commandline.
+Reading option '-hide_banner' ... matched as option 'hide_banner' (do not show program banner) with argument '1'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-r' ... matched as option 'r' (override input framerate/convert to given output framerate (Hz value, fraction or abbreviation)) with argument '12'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-start_number_range' ... matched as AVOption 'start_number_range' with argument '1'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (alias for -filter:v (apply filters to video streams)) with argument 'palettegen=stats_mode=full:reserve_transparent=1'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/KritaTempPalettegen_%06d.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option hide_banner (do not show program banner) with argument 1.
+Applying option y (overwrite output files) with argument 1.
+Applying option v (set logging level) with argument debug.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image%04d.png.
+Applying option r (override input framerate/convert to given output framerate (Hz value, fraction or abbreviation)) with argument 12.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image%04d.png.
+[image2 @ 000002b1da1f5f80] Opening 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image0000.png' for reading
+[file @ 000002b1da1d3a80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b1da1de700] Statistics: 6474 bytes read, 0 seeks
+[image2 @ 000002b1da1f5f80] Opening 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image0001.png' for reading
+[file @ 000002b1da1d3140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b1da1de700] Statistics: 6965 bytes read, 0 seeks
+[image2 @ 000002b1da1f5f80] Opening 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image0002.png' for reading
+[file @ 000002b1da1d3400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b1da1de700] Statistics: 6950 bytes read, 0 seeks
+[image2 @ 000002b1da1f5f80] Opening 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image0003.png' for reading
+[file @ 000002b1da1d3200] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b1da1de700] Statistics: 7013 bytes read, 0 seeks
+[image2 @ 000002b1da1f5f80] Opening 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image0004.png' for reading
+[file @ 000002b1da1d3500] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b1da1de700] Statistics: 7125 bytes read, 0 seeks
+[image2 @ 000002b1da1f5f80] Opening 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image0005.png' for reading
+[file @ 000002b1da1d38c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b1da1de700] Statistics: 6780 bytes read, 0 seeks
+[image2 @ 000002b1da1f5f80] Opening 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image0006.png' for reading
+[file @ 000002b1da1d3140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002b1da24e200] Statistics: 6130 bytes read, 0 seeks
+Input #0, image2, from 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image%04d.png':
+  Duration: 00:00:00.28, start: 0.000000, bitrate: N/A
+  Stream #0:0, 7, 1/25: Video: png, 1 reference frame, rgba(pc, gbr/unknown/unknown), 256x256 [SAR 11811:11811 DAR 1:1], 0/1, 25 fps, 25 tbr, 25 tbn
+Successfully opened the file.
+Parsing a group of options: output url C:/Users/bilal/jeu-unity/dossier-TM/personnage1/KritaTempPalettegen_%06d.png.
+Applying option vf (alias for -filter:v (apply filters to video streams)) with argument palettegen=stats_mode=full:reserve_transparent=1.
+Successfully parsed a group of options.
+Opening an output file: C:/Users/bilal/jeu-unity/dossier-TM/personnage1/KritaTempPalettegen_%06d.png.
+[out#0/image2 @ 000002b1da1ee840] No explicit maps, mapping streams automatically...
+[vost#0:0/png @ 000002b1da1f91c0] Created video stream from input stream 0:0
+[AVFilterGraph @ 000002b1da248880] Setting 'stats_mode' to value 'full'
+[AVFilterGraph @ 000002b1da248880] Setting 'reserve_transparent' to value '1'
+detected 12 logical cores
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+[vost#0:0/png @ 000002b1da1f91c0] Starting thread...
+[vf#0:0 @ 000002b1da1d3980] Starting thread...
+[vist#0:0/png @ 000002b1da24e5c0] [dec:png @ 000002b1da249540] Starting thread...
+[in#0/image2 @ 000002b1da1ec400] Starting thread...
+Press [q] to stop, [?] for help
+[in#0/image2 @ 000002b1da1ec400] EOF while reading input
+[in#0/image2 @ 000002b1da1ec400] Terminating thread with return code 0 (success)
+[vist#0:0/png @ 000002b1da24e5c0] [dec:png @ 000002b1da249540] Decoder thread received EOF packet
+[AVFilterGraph @ 000002b1da1dd400] Setting 'stats_mode' to value 'full'
+[AVFilterGraph @ 000002b1da1dd400] Setting 'reserve_transparent' to value '1'
+[vist#0:0/png @ 000002b1da24e5c0] [dec:png @ 000002b1da249540] Decoder returned EOF, finishing
+[vist#0:0/png @ 000002b1da24e5c0] [dec:png @ 000002b1da249540] Terminating thread with return code 0 (success)
+[graph -1 input from stream 0:0 @ 000002b1da1d6e00] Setting 'video_size' to value '256x256'
+[graph -1 input from stream 0:0 @ 000002b1da1d6e00] Setting 'pix_fmt' to value '26'
+[graph -1 input from stream 0:0 @ 000002b1da1d6e00] Setting 'time_base' to value '1/12'
+[graph -1 input from stream 0:0 @ 000002b1da1d6e00] Setting 'pixel_aspect' to value '11811/11811'
+[graph -1 input from stream 0:0 @ 000002b1da1d6e00] Setting 'colorspace' to value '0'
+[graph -1 input from stream 0:0 @ 000002b1da1d6e00] Setting 'range' to value '2'
+[graph -1 input from stream 0:0 @ 000002b1da1d6e00] Setting 'frame_rate' to value '12/1'
+[graph -1 input from stream 0:0 @ 000002b1da1d6e00] w:256 h:256 pixfmt:rgba tb:1/12 fr:12/1 sar:11811/11811 csp:gbr range:pc
+[format @ 000002b1da1d7900] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scale_0 @ 000002b1da1d7300] w:iw h:ih flags:'' interl:0
+[Parsed_palettegen_0 @ 000002b1da1d6300] auto-inserting filter 'auto_scale_0' between the filter 'graph -1 input from stream 0:0' and the filter 'Parsed_palettegen_0'
+[auto_scale_1 @ 000002b1da1d6400] w:iw h:ih flags:'' interl:0
+[format @ 000002b1da1d7900] auto-inserting filter 'auto_scale_1' between the filter 'Parsed_palettegen_0' and the filter 'format'
+[AVFilterGraph @ 000002b1da1dd400] query_formats: 4 queried, 3 merged, 6 already done, 0 delayed
+[auto_scale_1 @ 000002b1da1d6400] picking rgba out of 10 ref:bgra alpha:1
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc021e40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc02ee40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc041e80] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc055380] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc0688c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc07b8c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc08e900] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc0a1940] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc0c00c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc0cd580] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc0e05c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc0f35c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc014b40] [swscaler @ 000002b1dc106600] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_0 @ 000002b1da1d7300] w:256 h:256 fmt:rgba csp:gbr range:pc sar:11811/11811 -> w:256 h:256 fmt:bgra csp:gbr range:pc sar:1/1 flags:0x00000004
+[auto_scale_0 @ 000002b1da1d7300] [framesync @ 000002b1da25b3a8] Selected 1/12 time base
+[auto_scale_0 @ 000002b1da1d7300] [framesync @ 000002b1da25b3a8] Sync level 1
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc136e80] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc149ec0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc15cec0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc16ff00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc182f40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc195f80] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc1a8f80] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc1bbfc0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc1cf000] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc1e2040] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc1f5040] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc208080] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 000002b1dc119640] [swscaler @ 000002b1dc21b0c0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_1 @ 000002b1da1d6400] w:16 h:16 fmt:bgra csp:gbr range:pc sar:1/1 -> w:16 h:16 fmt:rgba csp:gbr range:pc sar:1/1 flags:0x00000004
+[auto_scale_1 @ 000002b1da1d6400] [framesync @ 000002b1da24fba8] Selected 1/12 time base
+[auto_scale_1 @ 000002b1da1d6400] [framesync @ 000002b1da24fba8] Sync level 1
+[graph -1 input from stream 0:0 @ 000002b1da1d6e00] video frame properties congruent with link at pts_time: 0
+[auto_scale_0 @ 000002b1da1d7300] [framesync @ 000002b1da25b3a8] Sync level 0
+[Parsed_palettegen_0 @ 000002b1da1d6300] 255(+1) colors generated out of 345 colors; ratio=0.739130
+[Parsed_palettegen_0 @ 000002b1da1d6300] Duped color: FF000000
+    Last message repeated 164 times
+[Parsed_palettegen_0 @ 000002b1da1d6300] Duped color: FF020202
+[Parsed_palettegen_0 @ 000002b1da1d6300] Duped color: FF161010
+[Parsed_palettegen_0 @ 000002b1da1d6300] Duped color: FF4A3737
+[Parsed_palettegen_0 @ 000002b1da1d6300] Duped color: FF4C3939
+Output #0, image2, to 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/KritaTempPalettegen_%06d.png':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0, 0, 1/12: Video: png, 1 reference frame, rgba(pc, gbr/unknown/unknown, progressive), 16x16 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 12 fps, 12 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 png
+[out#0/image2 @ 000002b1da1ee840] Starting thread...
+[auto_scale_1 @ 000002b1da1d6400] [framesync @ 000002b1da24fba8] Sync level 0
+[out_#0:0 @ 000002b1da1d5e00] EOF on sink link out_#0:0:default.
+[vf#0:0 @ 000002b1da1d3980] Filtergraph returned EOF, finishing
+[vf#0:0 @ 000002b1da1d3980] All consumers returned EOF
+[vost#0:0/png @ 000002b1da1f91c0] Encoder thread received EOF
+[image2 @ 000002b1da1f6ac0] Opening 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/KritaTempPalettegen_000001.png' for writing
+[file @ 000002b1da1d6700] Setting default whitelist 'file,crypto,data'
+[vost#0:0/png @ 000002b1da1f91c0] Terminating thread with return code 0 (success)
+[AVIOContext @ 000002b1dc132a00] Statistics: 414 bytes written, 0 seeks, 1 writeouts
+[out#0/image2 @ 000002b1da1ee840] All streams finished
+[out#0/image2 @ 000002b1da1ee840] Terminating thread with return code 0 (success)
+[vf#0:0 @ 000002b1da1d3980] Terminating thread with return code 0 (success)
+[out#0/image2 @ 000002b1da1ee840] Output file #0 (C:/Users/bilal/jeu-unity/dossier-TM/personnage1/KritaTempPalettegen_%06d.png):
+[out#0/image2 @ 000002b1da1ee840]   Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (414 bytes); 
+[out#0/image2 @ 000002b1da1ee840]   Total: 1 packets (414 bytes) muxed
+[out#0/image2 @ 000002b1da1ee840] video:0KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.08 bitrate=N/A speed=2.25x    
+[in#0/image2 @ 000002b1da1ec400] Input file #0 (C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image%04d.png):
+[in#0/image2 @ 000002b1da1ec400]   Input stream #0:0 (video): 7 packets read (47437 bytes); 7 frames decoded; 0 decode errors; 
+[in#0/image2 @ 000002b1da1ec400]   Total: 7 packets (47437 bytes) demuxed
+Input #0, image2, from 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/image%04d.png':
+  Duration: 00:00:00.28, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 256x256 [SAR 11811:11811 DAR 1:1], 25 fps, 25 tbr, 25 tbn
+Input #1, image2, from 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/KritaTempPalettegen_%06d.png':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
+  Stream #1:0: Video: png, rgba(pc, gbr/unknown/unknown), 16x16 [SAR 1:1 DAR 1:1], 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse
+  Stream #1:0 (png) -> paletteuse
+  paletteuse:default -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+Output #0, gif, to 'C:/Users/bilal/jeu-unity/dossier-TM/personnage1/animation course2.gif':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 256x256 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 12 fps, 100 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 gif
+[out#0/gif @ 000002269939b580] video:11KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.177258%
+frame=    7 fps=0.0 q=-0.0 Lsize=      11KiB time=00:00:00.58 bitrate= 155.0kbits/s speed=10.5x    
